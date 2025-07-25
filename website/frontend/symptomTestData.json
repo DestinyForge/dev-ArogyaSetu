@@ -1,0 +1,12 @@
+{
+  "fever": ["CBC", "CRP", "Dengue NS1", "Typhoid Test"],
+  "cough": ["Chest X-Ray", "Sputum Culture", "COVID RT-PCR"],
+  "headache": ["MRI", "CT Scan", "Electrolyte Test"],
+  "nausea": ["Liver Function Test", "Ultrasound", "Pancreatic Enzymes"],
+  "chest pain": ["ECG", "Troponin", "Chest X-Ray"],
+  "fatigue": ["Thyroid Function Test", "Vitamin B12", "Iron Studies"],
+  "vomiting": ["Abdominal Ultrasound", "Amylase/Lipase", "Stool Culture"],
+  "diarrhea": ["Stool Culture", "Electrolyte Panel", "Ova and Parasite Test"],
+  "sore throat": ["Throat Swab Culture", "Rapid Strep Test", "CRP"],
+  "rash": ["Allergy Test", "Skin Biopsy", "CBC"]
+}

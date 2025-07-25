@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ArogyaSetu - Your trusted partner for health and wellness. Professional healthcare solutions for a better tomorrow.">
+    <meta name="keywords" content="health, wellness, healthcare, ArogyaSetu, medical, telemedicine, health monitoring">
+    <meta name="author" content="ArogyaSetu">
+    <title>ArogyaSetu - Professional Health & Wellness Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+</head>
+<body>
+    <header class="header" role="banner">
+        <nav class="navbar" role="navigation" aria-label="Main navigation">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="#" class="logo" aria-label="ArogyaSetu Home">
+                        <i class="fas fa-heartbeat" aria-hidden="true"></i>
+                        <span>ArogyaSetu</span>
+                    </a>
+                </div>
+                
+                <ul class="nav-menu" role="menubar" id="nav-menu">
+                    <li class="nav-item" role="none">
+                        <a href="#home" class="nav-link" role="menuitem">Home</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#services" class="nav-link" role="menuitem">Services</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#about" class="nav-link" role="menuitem">About</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+                    </li>
+                </ul>
+                
+                <div class="nav-auth">
+                    <button class="btn btn-login" type="button" aria-label="Login to your account">
+                        <i class="fas fa-sign-in-alt" aria-hidden="true"></i>
+                        <span>Login</span>
+                    </button>
+                    <button class="btn btn-signup" type="button" aria-label="Create a new account">
+                        <i class="fas fa-user-plus" aria-hidden="true"></i>
+                        <span>Sign Up</span>
+                    </button>
+                </div>
+                
+                <button class="hamburger" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="bar" aria-hidden="true"></span>
+                    <span class="bar" aria-hidden="true"></span>
+                    <span class="bar" aria-hidden="true"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content" role="main">
+        <section id="home" class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title" class="fade-in">Professional Healthcare Solutions</h1>
+                <p class="fade-in">ArogyaSetu delivers comprehensive health and wellness services through cutting-edge technology and expert medical professionals. Experience healthcare reimagined for the modern world.</p>
+                <button class="btn btn-primary fade-in" type="button" aria-label="Get started with ArogyaSetu">
+                    <i class="fas fa-arrow-right" aria-hidden="true"></i>
+                    <span>Get Started Today</span>
+                </button>
+
+                <!-- ✅ ADDED: Symptom-based suggestion input -->
+                <div class="form-container">
+                    <h2>Smart Health Diagnosis</h2>
+                    <div class="input-container">
+                        <input type="text" id="symptom-input" placeholder="Enter symptoms like fever, cough, etc." />
+                        <button id="getSuggestionsBtn">Get Test Suggestions</button>
+                    </div>
+                    <ul id="suggestions"></ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section" aria-labelledby="services-title">
+            <div class="container">
+                <h2 id="services-title" class="section-title">Our Professional Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-user-md" aria-hidden="true"></i>
+                        <h3>Expert Consultation</h3>
+                        <p>Connect with board-certified healthcare professionals through our secure telemedicine platform for comprehensive medical consultations.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-heart" aria-hidden="true"></i>
+                        <h3>Health Monitoring</h3>
+                        <p>Advanced health tracking and monitoring solutions with real-time data analysis and personalized insights for optimal wellness.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-pills" aria-hidden="true"></i>
+                        <h3>Medication Management</h3>
+                        <p>Intelligent medication reminders, dosage tracking, and comprehensive management systems to ensure treatment adherence.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-chart-line" aria-hidden="true"></i>
+                        <h3>Health Analytics</h3>
+                        <p>Comprehensive health analytics and reporting with actionable insights to track your wellness journey and progress.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                        <h3>Secure Platform</h3>
+                        <p>Enterprise-grade security with HIPAA compliance ensuring your health data remains private and protected at all times.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        <h3>Mobile Access</h3>
+                        <p>Seamless mobile experience with our intuitive app, providing healthcare access anytime, anywhere with just a tap.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section" aria-labelledby="about-title">
+            <div class="container">
+                <h2 id="about-title" class="section-title">About ArogyaSetu</h2>
+                <div class="about-content">
+                    <p>ArogyaSetu is a leading healthcare technology company dedicated to revolutionizing the way people access and manage their health. Our platform combines cutting-edge technology with expert medical care to provide comprehensive health solutions that empower individuals to take control of their wellness journey.</p>
+                    <p>With a team of experienced healthcare professionals and innovative technologists, we are committed to making quality healthcare accessible, affordable, and convenient for everyone.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section" aria-labelledby="contact-title">
+            <div class="container">
+                <h2 id="contact-title" class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <p>Ready to experience the future of healthcare? Contact our team to learn more about how ArogyaSetu can support your health and wellness goals.</p>
+                    <button class="btn btn-primary" type="button" aria-label="Contact ArogyaSetu">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span>Contact Us</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ArogyaSetu</h3>
+                    <p>Your trusted partner for professional healthcare solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-envelope"></i> info@arogyasetu.com</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ArogyaSetu. All rights reserved. | Privacy Policy | Terms of Service</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
